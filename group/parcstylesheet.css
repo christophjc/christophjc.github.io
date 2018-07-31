@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Chivo');
+
+div {
+  /*border: 1px solid blue;*/
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2%;
+  
+}
+
+.title {
+  flex: .7;
+  margin-left: 10%;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.navlinks {
+  flex: 1;
+  margin-right: 8%;
+  padding-left: 53%;
+  font-size: 12px;
+  
+}
+
+.navlinks ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  float: left;
+  padding: 0 3% 0 3%; 
+}
+
+
+
+body {
+  text-align: center;
+  font-family: 'Chivo', sans-serif;
+}
+
+.master {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.parent {
+  display: flex;
+  flex-direction: vertical;
+  width: 90%;
+  justify-content: center;
+  text-align: center;
+  padding: 0 10% 0 10%;
+}
+
+.child {
+  flex: 1;
+  width: 45%;
+  /*height: 300px;*/
+  margin: 1%;
+}
+
+.hide {
+  opacity: 0;
+  padding: 150px;
+
+}
+
+.child a {
+  display: block;
+  padding: 150px;
+}
+
+.hide:hover {
+  z-index: 1;
+  opacity: 1;
+}
+
+.child:hover {
+  background-image: none;
+  background-color: white;
+}
+
+
+.chris {
+  background-image: url(img/taiwanlanding.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ale {
+    background-image: url(img/puertovallartalanding.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.paola {
+    background-image: url(img/perulanding.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rachel {
+    background-image: url(img/italylanding.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*this is paolas css portion*/
+
+.herophoto {
+    height: 600px;
+    background-image:url(imagesgroup/herophotopj.jpg); 
+    background-size: cover;
+}
+
+h1 {
+    color: red;
+    padding-top: 15%;
+}
+
+.parentind {
+    display: flex;
+    padding-top: 100px;
+}
+.textind {
+    flex:1;
+    flex-direction: column;
+}
+
+.imagecontainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagesind {
+    margin: 5% 5% 5% 5%;
+    height: 500px;
+    background-size: cover;
+    flex:1;
+    align-items: center;
+}
+
+.machupichu {
+    background-image: url(imagesgroup/machupichu.jpg);
+}
+
+.lakepj {
+    margin: 5% 5% 5% 5%;
+    border: solide blue 2px;
+    height: 500px;
+    background-image:url(imagesgroup/lake.jpg);
+    background-size: cover;
+    flex:1;
+    align-items: center;
+}
+
+.colorspj {
+    margin: 5% 5% 5% 5%;
+    border: solide blue 2px;
+    height: 500px;
+    background-image:url(imagesgroup/colors.jpg);
+    background-size: cover;
+    flex:1;
+    align-items: center;
+}
+
