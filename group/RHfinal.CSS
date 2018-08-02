@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Alfa+Slab+One|Amiri|Archivo+Black|Asset|Bowlby+One|Bowlby+One+SC|Cinzel+Decorative|Cinzel:400,700,900|Diplomata|Eczar:500,800|Emblema+One|Gravitas+One|Limelight|Passion+One|Playfair+Display+SC:400i,900,900i|Playfair+Display:400i,700,700i,900,900i|Purple+Purse|Tinos:400,400i,700|Ultra|Wire+One');
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2%;
+  
+}
+
+.title {
+  flex: .7;
+  margin-left: 10%;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.navlinks {
+  flex: 1;
+  margin-right: 8%;
+  padding-left: 53%;
+  font-size: 12px;
+  
+}
+
+.navlinks ul {
+  display: flex;
+  list-style: none;
+
+}
+
+li {
+  float: left;
+  padding: 0 3% 0 3%; 
+}
+.herophotorh{
+    font-family: 'Asset', cursive;
+    height: 600px;
+    background-image: url(img/dario-veronesi-426327-unsplash.jpg); 
+    background-size: cover;
+    margin-bottom: 2%;
+}
+h1{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 50px;
+    color: #EEF5DB;
+    text-align: center;
+    padding-top: 9%;
+    padding-left: 13%;
+    padding-right: 13%;
+    margin-bottom: 1%;
+    margin-top:1%;
+}
+h2{
+    font-size: 35px;
+    color: #FE5F55;
+    text-align: center;
+}
+
+h3{
+    font-size:  28px;
+  padding: 2%;
+}
+
+h4{
+  font-size: 20px;
+  font-family: 'Amiri', serif;
+}
+.city{
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+    margin-top: 1%;
+    padding-top: 1%;
+    text-align: center;
+    color: #EEF5DB;
+}
+.parentrh{
+    display: flex;
+    margin-top: 1%;
+}
+.textrh{
+    font-family: 'Cinzel Decorative', cursive;
+    flex:1;
+    flex-direction: column;
+    font-size: 12px;
+    margin-top: 1%;
+}
+
+
+.rhpics{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.rhpicone{
+    margin: 5% 5% 5% 5%;
+    height: 500px;
+    background-image: url(img/ingo-hamm-659353-unsplash.jpg);
+    background-size: cover;
+    flex:1;
+    align-items: center;
+}
+.rhpictwo{
+    margin: 5% 5% 5% 5%;
+    border: solide blue 2px;
+    height: 500px;
+    background-image:url(img/christopher-czermak-704460-unsplash.jpg);
+    background-size: cover;
+    flex:1;
+    align-items: center;
+}
+
+
+.rhpicthree{
+    margin: 5% 5% 5% 5%;
+    border: solide blue 2px;
+    height: 500px;
+    background-image:url(img/yoosun-won-32420-unsplash.jpg);
+    background-size: cover;
+    flex:1;
+    align-items: center;
+}
