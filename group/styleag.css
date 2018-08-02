@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css?family=Chivo');
+
+div {
+  /*border: 1px solid blue;*/
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2%;
+  
+}
+
+.title {
+  flex: .7;
+  margin-left: 10%;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.navlinks {
+  flex: 1;
+  margin-right: 8%;
+  padding-left: 53%;
+  font-size: 12px;
+  
+}
+
+.navlinks ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  float: left;
+  padding: 0 3% 0 3%; 
+}
+
+body {
+    font-family: 'Chivo', sans-serif;
+    margin-right: 2px;
+}
+p {
+    line-height: 1.5;
+    text-align:justify; 
+}
+div {
+    /*border: 2px solid red;*/
+}
+
+.titlepv h1 {
+    text-align: center;
+}
+.toppv {
+    margin-left: 5px;
+}
+
+.beachchairimg {
+    background-image: url(NY%20Candidates/)
+    background-size: no cover;
+}
+.ecocontent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    margin-right: 10px;
+}
+.ecochild {
+    flex: 1;
+    margin-right: 8px;
+}
+.ecochildimg {
+    background-image: url("whale.JPG");
+    background-size: cover;
+    padding-bottom: 100px; 
+    padding-top: 300px;
+    flex: 1;
+}
+.surfcontent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex: 1; 
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.surfchild {
+    flex: 1;
+    margin-right: 8px;
+}
+.surfimg {
+    background-image: url("surf.JPG");
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 300px;
+    flex: 1;
+}
+.beachcontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.beachchildsea {
+    flex: 1;
+    background-image: url("sea.JPG");
+    background-size: cover;
+    padding-bottom: 500px;
+    padding-top: 200px;
+    margin-right: 20px;
+}
+.beachchild {
+    flex: 1;
+    background-image: url("sky.JPG");
+    background-size: cover;   
+}
+.foodcontent {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+}
+.foodchildimg {
+    background-image: url("food.JPG");
+    background-size: cover;
+    padding-bottom: 400px
+    flex: 1;
+    padding-left: 600px;
+}
+.foodchild {
+    flex: 1;
+    margin-right: 8px;
+}
