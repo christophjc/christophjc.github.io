@@ -176,3 +176,36 @@ body {
     align-items: center;
 }
 
+/* this is Chris' CSS*/
+
+.herophotochris {
+    background-image:url(img/taipeiatnight.jpg); 
+    background-size: cover;
+    padding: 25%;
+    color: #ffffff;
+}
+
+.maintext {
+    padding: 10%;
+}
+
+.textimgcontainer {
+    display: flex;
+    flex-direction: row;
+    margin: 5% 10%;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+}
+
+.textcolumn {
+    flex: 1;
+    margin: 2%;
+}
+
+.imgcolumn {
+    flex: 1;
+}
+
