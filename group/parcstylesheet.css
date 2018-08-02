@@ -153,7 +153,13 @@ body {
 }
 
 .machupichu {
+    margin: 5% 5% 5% 5%;
+    border: solide blue 2px;
+    height: 500px;
     background-image: url(img/machupichu.jpg);
+    background-size: cover;
+    flex:1;
+    align-items: center;
 }
 
 .lakepj {
