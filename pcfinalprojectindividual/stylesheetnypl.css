@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+body {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+/*not sure if wiser to put one font in body and change accordingly or better to leave it out of body and indicate on each div*/
+
+img {
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+.title {
+  flex: .7;
+  padding-right: 15%;
+}
+
+.navmain {
+  flex: 1;
+  padding-right: 2%;
+  align-items: center;
+}
+
+.navmain ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+}
+
+.wide {
+    width: 170px;
+}
+
+.navmain li {
+    display: inline-block;
+    padding: 1.5%;
+}
+
+.hero {
+    background-image: url(img/herogroupcollaboration.jpg);
+    background-size: cover;
+    padding: 10% 5% 20% 5%;
+    color: #ffffff;
+    text-transform: uppercase;
+}    
+
+.hero h2 {
+    font-size: 56px;
+    text-transform: uppercase;
+}
+
+.hero h1, p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.sessions {
+    padding: 10%;
+    background-color: #000000;
+    color: #ffffff;
+}
+/* color scheme super simple for the moment*/
+
+.sessions h2, h3, p {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+.sessions h4 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: none;
+}
+
+/*used this div on more than one page for simplicity*/
+.syllabus {
+    padding: 10%;
+    align-content: center;
+    align-items: center;
+}
+
+/*some of the below properties seem to be inherited by other divs but can't figure out why*/
+
+.syllabus h1, h2 {
+    text-transform: uppercase;
+    padding-bottom: 1%;
+}
+
+.syllabus h3, p {
+    font-family: 'Raleway', sans-serif;
+    text-transform: none;
+}
+
+
+.textimgcontainer {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.textcolumn {
+    flex: 1;
+    margin: 2%;
+}
+
+.imgcolumn {
+    flex: 1;
+}
+
+.herotc {
+    background-image: url(img/nyplmainlibrary.jpg);
+    background-size: cover;
+    padding: 10%;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.herotc h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    margin-bottom: 10%;
+}
+
+.textblock {
+    background-color: #000000;
+    padding: 5% 10% 5% 10%;
+    margin: 0% 5%;
+}
+
+/* for some reason text in textblock div was inheriting uppercase transform? */
+
+.textblock h3 {
+    text-transform: none;
+}
+
+.syllabus button {
+    text-decoration: none;
+    background-color: inherit;
+    color: inherit;
+    border: #000000 solid 1px;
+    font-size: 12px;
+}
+
+.locations {
+    padding: 10% 10% 10% 10%;
+    align-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-image: url("img/newyorkskyline.jpg");
+    background-size: cover;
+}
+
+.locations h1, h2 {
+    text-transform: uppercase;
+    padding-bottom: 1%;
+}
+
+.locations h3, p {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.listcolumns {
+    margin: 0% 10%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.listcolumns a, a:visited {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.listcolumn p {
+    text-transform: capitalize;
+}
+
+.column {
+    flex: 1;
+    padding: 2%;
+}
+
+.column h2 {
+    white-space: nowrap;
+}
+
+/*nowrap was best way I could fit text on one line*/
+
+.resourcehero {
+    background-image: url("img/typingresources.jpg");
+    background-size: cover;
+    background-repeat: none;
+    padding: 17%;
+    color: #ffffff;
+}
+
+.resourcehero a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.resourcehero h1 {
+    text-transform: uppercase;
+}
+
+.resourcelist {
+    padding: 10% 10% 10% 10%;
+    align-content: center;
+    align-items: center;
+}
