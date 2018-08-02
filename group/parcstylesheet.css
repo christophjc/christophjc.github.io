@@ -153,14 +153,14 @@ body {
 }
 
 .machupichu {
-    background-image: url(imagesgroup/machupichu.jpg);
+    background-image: url(img/machupichu.jpg);
 }
 
 .lakepj {
     margin: 5% 5% 5% 5%;
     border: solide blue 2px;
     height: 500px;
-    background-image:url(imagesgroup/lake.jpg);
+    background-image:url(img/lake.jpg);
     background-size: cover;
     flex:1;
     align-items: center;
@@ -170,7 +170,7 @@ body {
     margin: 5% 5% 5% 5%;
     border: solide blue 2px;
     height: 500px;
-    background-image:url(imagesgroup/colors.jpg);
+    background-image:url(img/colors.jpg);
     background-size: cover;
     flex:1;
     align-items: center;
